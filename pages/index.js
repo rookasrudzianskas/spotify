@@ -1,6 +1,6 @@
 import { useContext } from 'react'
 // import { SpotifyContext } from '../context/context'
-import Login from '../components/login'
+import Login from '../components/Login'
 import {SpotifyContext} from "../context/context";
 
 export default function Home() {
