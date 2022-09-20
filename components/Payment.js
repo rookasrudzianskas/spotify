@@ -4,7 +4,9 @@ import { TOKEN_PROGRAM_ID } from '@solana/spl-token'
 import { SOLANA_HOST } from '../utils/const'
 import { PublicKey } from '@solana/web3.js'
 import { useWallet } from '@solana/wallet-adapter-react'
-import HomePage from '../pages/homepage'
+import HomePage from '../pages/homepage';
+
+// This is working ❤️
 
 const anchor = require('@project-serum/anchor')
 
