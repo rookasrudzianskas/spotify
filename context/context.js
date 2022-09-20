@@ -21,22 +21,22 @@ export const SpotifyProvider = ({ children }) => {
     }, [isPlaying])
 
     const pause = () => {
-        setIsPaused(true)
-        document.querySelector('#audio-element').pause()
+        setIsPaused(true);
+        document.querySelector('#audio-element').pause();
     }
 
     const play = () => {
-        document.querySelector('#audio-element').play()
-        setIsPaused(false)
+        document.querySelector('#audio-element').play();
+        setIsPaused(false);
     }
 
     const playOnSelect = (song) => {
         try {
             document.querySelector('#audio-element').src = song.musicUrl
-            document.querySelector('#audio-element').play()
-            setCurrentSong(song)
-            setIsPlaying(true)
-            setIsPaused(false)
+            document.querySelector('#audio-element').play();
+            setCurrentSong(song);
+            setIsPlaying(true);
+            setIsPaused(false);
         } catch (e) { }
     }
 
