@@ -39,7 +39,7 @@ const Header = ({ setShowUploadMusic }) => {
                         <div className={style.profileAvatarContainer}>
                             <img alt='' src='assets/avatar.jpg' className='rounded-full' />
                         </div>
-                        <p>Your Name</p>
+                        <p>Rokas Rudzianskas'</p>
                     </div>
                 </div>
             </div>
