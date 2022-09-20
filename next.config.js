@@ -12,6 +12,7 @@ const nextConfig = {
         'i.scdn.co',
         'resources.tidal.com',
         'encrypted-tbn1.gstatic.com',
+        'avatars.githubusercontent.com',
       'angartwork.akamaized.net'
     ],
   },

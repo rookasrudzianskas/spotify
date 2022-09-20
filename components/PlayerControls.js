@@ -20,7 +20,7 @@ const PlayerControls = ({songs}) => {
             <div className={styles.flexCenter}>
                 <div className={styles.albumCoverContainer}>
                     <Image
-                        src='https://kajabi-storefronts-production.kajabi-cdn.com/kajabi-storefronts-production/themes/284832/settings_images/rLlCifhXRJiT0RoN2FjK_Logo_roundbackground_black.png'
+                        src='https://avatars.githubusercontent.com/u/38469892?v=4'
                         // src={currentSong.cover}
                         className={styles.coverPhoto}
                         height={200}
@@ -80,7 +80,7 @@ export default PlayerControls
 
 const styles = {
     albumCoverContainer: `w-20 h-20 mr-3`,
-    coverPhoto: `object-cover`,
+    coverPhoto: `object-cover rounded-full w-12 h-12`,
     mainControl: `fixed bottom-0 left-0 p-5 py-3 pr-10 w-screen bg-[#242424] z-40 flex items-center justify-between`,
     // range: `appearance-none mx-3 hover:bg-[#000] h-1 hover:bg-[#22C55E] bg-[#fff] w-[500px]`,
     // volumeRange: `mx-3 -hue-rotate-90 h-1`,

@@ -57,7 +57,7 @@ const Nav = () => {
           Country
         </p>
         <p className={styles.playlistName}>
-          Your Top Songs 2019
+          Your Top Songs 2022
         </p>
       </div>
     </div>

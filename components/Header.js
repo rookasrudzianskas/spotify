@@ -54,13 +54,13 @@ const Header = ({ setShowUploadMusic }) => {
 
                 <div className='ml-5'>
                     <div>ALBUM</div>
-                    <div className={style.title}>Your Album</div>
+                    <div className={style.title}>Rokas' Album</div>
                     <div className='flex items-center mt-5'>
                         <div className={style.profileAvatarContainer}>
                             <img alt='' src='assets/avatar.jpg' className='rounded-full' />
                         </div>
                         <p>
-                            <span className='text-bold'>SteamBeats</span> • 2020 • 46 songs, 3
+                            <span className='text-bold'>SteamBeats</span> • 2022 • 46 songs, 3
                             hr 20 min
                         </p>
                     </div>
