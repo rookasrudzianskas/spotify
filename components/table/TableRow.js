@@ -24,7 +24,7 @@ const TableRow = ({ props }) => {
     )
 }
 
-export default TableRow
+export default TableRow;
 
 const styles = {
     th: `pb-5 hover:opacity-50 cursor-pointer`,
